@@ -1,0 +1,320 @@
+{
+	"ads": [{
+		"pubContent": {
+			"version": 0.1,
+			"shouldScale": "YES",
+			"orientation": "portrait",
+			"styleRefs": {
+				"cardContainerStyle": {
+					"geometry": [0.0, 0.0, 0.0, 0.0],
+					"backgroundColor": "#ff126a7c"
+				}
+			},
+			"rootContainer": {
+				"assetName": "root",
+				"assetType": "container",
+				"assetStyle": {
+					"geometry": [0.0, 0.0, 380, 214],
+					"backgroundColor": "#cccccccc",
+					"corner": "curved"
+				},
+				"trackers": [{
+					"url": "http://pubFillClickTracker",
+					"trackerType": "URL_PING",
+					"uiEvent": "CLIENT_FILL"
+				}],
+				"assetValue": [{
+					"assetName": "fixed_part",
+					"assetType": "container",
+					"assetStyle": {
+						"geometry": [0, 0, 380, 214],
+						"backgroundColor": "#ffEFF1F4"
+					},
+					"assetValue": [{
+						"assetName": "fixed_part_container",
+						"assetType": "container",
+						"assetStyle": {
+							"geometry": [0, 0, 380, 214],
+							"backgroundColor": "#cccccccc"
+						},
+						"assetValue": [{
+							"assetName": "icon",
+							"assetType": "image",
+							"assetStyle": {
+								"geometry": [10, 10.0, 0, 0]
+							},
+							"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/logo11483950608.png"]
+						}, {
+							"assetName": "item_title",
+							"assetType": "TEXT",
+							"assetStyle": {
+								"geometry": [55, 10, 0, 0],
+								"text": {
+									"font": "Helvetica",
+									"size": "14",
+									"color": "#ff000000",
+									"style": ["bold"]
+								}
+							},
+							"assetValue": ["The secret is out..."]
+						}, {
+							"assetName": "video_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0, 0, 380, 214],
+								"backgroundColor": "#ff000000"
+							},
+							"assetValue": [{
+								"assetName": "item_video",
+								"assetType": "VIDEO",
+								"assetId": "109",
+								"soundOn": false,
+								"loop": true,
+								"showProgress": true,
+								"assetStyle": {
+									"geometry": [0, 0, 380, 214]
+								},
+								"assetOnclick": {
+									"action": "fullscreen"
+								},
+								"assetValue": ["\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cVAST version\u003d\"3.0\"\u003e\n    \u003cAd id\u003d\"0299f9bd-f312-4776-8edd-b011ef3b7f99\"\u003e\n        \u003cInLine\u003e\n            \u003cAdSystem\u003eInMobi\u003c/AdSystem\u003e\n            \u003cAdTitle\u003eInMobi Ad\u003c/AdTitle\u003e\n                            \u003cImpression\u003e\u003c![CDATA[http://impressionImpressionTracker1]]\u003e\u003c/Impression\u003e\n                            \u003cImpression\u003e\u003c![CDATA[http://impressionImpressionTracker2]]\u003e\u003c/Impression\u003e\n                        \u003cError\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d99\u0026action\u003dvast-error\u0026label\u003d[ERRORCODE]\u0026__t\u003d$TS]]\u003e\u003c/Error\u003e\n            \u003cCreatives\u003e\n                \u003cCreative id\u003d\"1\"\u003e\n                    \u003cLinear\u003e\n                        \u003cDuration\u003e00:00:29\u003c/Duration\u003e\n                        \u003cTrackingEvents\u003e\n                            \u003cTracking event\u003d\"creativeView\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"start\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d10\u0026mid\u003dvideo\u0026mt\u003d1\u0026ml\u003d$MD\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"firstQuartile\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d12\u0026q\u003d1\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"midpoint\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d12\u0026q\u003d2\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"thirdQuartile\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d12\u0026q\u003d3\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"complete\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d13\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"pause\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d14\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                            \u003cTracking event\u003d\"resume\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d17\u0026mid\u003dvideo\u0026mt\u003d1\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                        \u003c/TrackingEvents\u003e\n\n                        \u003cVideoClicks\u003e\n                            \u003cClickThrough\u003e\u003c![CDATA[https://itunes.apple.com/in/app/freshdesk/id849713306?mt\u003d8]]\u003e\u003c/ClickThrough\u003e\n                                                            \u003cClickTracking\u003e\u003c![CDATA[http://impressionClickTracker1]]\u003e\u003c/ClickTracking\u003e\n                                                            \u003cClickTracking\u003e\u003c![CDATA[http://impressionClickTracker2]]\u003e\u003c/ClickTracking\u003e\n                                                    \u003c/VideoClicks\u003e\n                        \u003cMediaFiles\u003e\n                                                                                                \u003cMediaFile delivery\u003d\"progressive\" type\u003d\"video/mp4\" bitrate\u003d\"1243\" width\u003d\"1280\" height\u003d\"720\" scalable\u003d\"false\" maintainAspectRatio\u003d\"true\"\u003e            \u003c![CDATA[http://i.l.inmobicdn.net/adtools/videoads/prod/8d1663b0737c457e931c72721c3aa85b/videos/9ef86ba6-67c0-4291-b3d4-5fc79e829d39/video.720p.mp4]]\u003e\n    \u003c/MediaFile\u003e\n                                                                                                                                \u003cMediaFile delivery\u003d\"progressive\" type\u003d\"video/mp4\" bitrate\u003d\"672\" width\u003d\"640\" height\u003d\"360\" scalable\u003d\"false\" maintainAspectRatio\u003d\"true\"\u003e            \u003c![CDATA[http://i.l.inmobicdn.net/adtools/videoads/prod/8d1663b0737c457e931c72721c3aa85b/videos/9ef86ba6-67c0-4291-b3d4-5fc79e829d39/video.720p.mp4]]\u003e\n    \u003c/MediaFile\u003e\n                                                                                                                                \u003cMediaFile delivery\u003d\"progressive\" type\u003d\"video/mp4\" bitrate\u003d\"970\" width\u003d\"854\" height\u003d\"480\" scalable\u003d\"false\" maintainAspectRatio\u003d\"true\"\u003e            \u003c![CDATA[http://i.l.inmobicdn.net/adtools/videoads/prod/8d1663b0737c457e931c72721c3aa85b/videos/9ef86ba6-67c0-4291-b3d4-5fc79e829d39/video.720p.mp4]]\u003e\n    \u003c/MediaFile\u003e\n                                                                                    \u003c/MediaFiles\u003e\n                    \u003c/Linear\u003e\n                \u003c/Creative\u003e\n                \u003cCreative id\u003d\"2\"\u003e\n                    \u003cCompanionAds\u003e\n                                                                                                                                                                                                    \u003cCompanion width\u003d\"480\" height\u003d\"320\"\u003e\n                                    \u003cStaticResource creativeType\u003d\"image/jpeg\"\u003e            \u003c![CDATA[http://i.l.inmobicdn.net/banners/FileData/1e7ae977-4460-4d20-a3e8-6d0811879a67.jpeg]]\u003e\n    \u003c/StaticResource\u003e\n                                    \u003cTrackingEvents\u003e\n                                        \u003cTracking event\u003d\"creativeView\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d99\u0026action\u003dcompanion-view\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                                    \u003c/TrackingEvents\u003e\n                                                                            \u003cCompanionClickTracking\u003e\u003c![CDATA[http://impressionClickTracker1]]\u003e\u003c/CompanionClickTracking\u003e\n                                                                            \u003cCompanionClickTracking\u003e\u003c![CDATA[http://impressionClickTracker2]]\u003e\u003c/CompanionClickTracking\u003e\n                                                                        \u003cCompanionClickThrough\u003e\u003c![CDATA[https://itunes.apple.com/in/app/freshdesk/id849713306?mt\u003d8]]\u003e\u003c/CompanionClickThrough\u003e\n                                \u003c/Companion\u003e\n                                                                                                                                                                                                                                \u003cCompanion width\u003d\"320\" height\u003d\"480\"\u003e\n                                    \u003cStaticResource creativeType\u003d\"image/jpeg\"\u003e            \u003c![CDATA[http://i.l.inmobicdn.net/banners/FileData/d80ffde9-49f6-42df-bd3e-d0908516a81d.jpeg]]\u003e\n    \u003c/StaticResource\u003e\n                                    \u003cTrackingEvents\u003e\n                                        \u003cTracking event\u003d\"creativeView\"\u003e\u003c![CDATA[${first.beaconUrl}?m\u003d99\u0026action\u003dcompanion-view\u0026__t\u003d$TS]]\u003e\u003c/Tracking\u003e\n                                    \u003c/TrackingEvents\u003e\n                                                                            \u003cCompanionClickTracking\u003e\u003c![CDATA[http://impressionClickTracker1]]\u003e\u003c/CompanionClickTracking\u003e\n                                                                            \u003cCompanionClickTracking\u003e\u003c![CDATA[http://impressionClickTracker2]]\u003e\u003c/CompanionClickTracking\u003e\n                                                                        \u003cCompanionClickThrough\u003e\u003c![CDATA[https://itunes.apple.com/in/app/freshdesk/id849713306?mt\u003d8]]\u003e\u003c/CompanionClickThrough\u003e\n                                \u003c/Companion\u003e\n                                                                        \u003c/CompanionAds\u003e\n                \u003c/Creative\u003e\n            \u003c/Creatives\u003e\n        \u003c/InLine\u003e\n    \u003c/Ad\u003e\n\u003c/VAST\u003e"]
+							}]
+						}, {
+							"assetName": "item_description",
+							"assetType": "TEXT",
+							"assetStyle": {
+								"geometry": [10, 205, 0, 0],
+								"text": {
+									"font": "TimesNewRoman",
+									"size": "14",
+									"color": "#ff000000",
+									"style": ["bold"]
+								}
+							},
+							"assetValue": ["Harry Josh's Dryer"]
+						}, {
+							"assetName": "item_description",
+							"assetType": "TEXT",
+							"assetStyle": {
+								"geometry": [10, 222, 0, 0],
+								"text": {
+									"font": "TimesNewRoman",
+									"size": "12",
+									"color": "#ff000000",
+									"style": ["none"]
+								}
+							},
+							"assetValue": ["Dermstore"]
+						}, {
+							"assetName": "cta",
+							"assetType": "image",
+							"assetStyle": {
+								"geometry": [255, 205, 0, 0]
+							},
+							"assetOnclick": {
+								"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+								"openMode": "INAPP"
+							},
+							"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/ctablack1483983673.png"]
+						}]
+					}]
+				}]
+			},
+			"pages": [{
+				"version": 0.1,
+				"orientation": "portrait",
+				"styleRefs": {
+					"cardContainerStyle": {
+						"geometry": [0.0, 0.0, 0.0, 0.0],
+						"backgroundColor": "#ff126a7c"
+					}
+				},
+				"rootContainer": {
+					"assetName": "root",
+					"assetType": "container",
+					"assetStyle": {
+						"geometry": [0.0, 0.0, 375.0, 667.0],
+						"backgroundColor": "#ff000000"
+					},
+					"trackers": [{
+						"url": "http://pubFillClickTracker",
+						"trackerType": "URL_PING",
+						"uiEvent": "CLIENT_FILL"
+					}],
+					"assetValue": [{
+						"assetName": "item_video",
+						"assetType": "VIDEO",
+						"assetId": "110",
+						"soundOn": true,
+						"loop": true,
+						"showProgress": true,
+						"assetStyle": {
+							"geometry": [0.0, 0.0, 375.0, 211]
+						},
+						"valueType": "reference",
+						"assetValue": ["109"]
+					}, {
+						"assetName": "background",
+						"assetType": "image",
+						"assetStyle": {
+							"geometry": [0, 211, 375, 456]
+						},
+						"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/201701151484546839.png"]
+					}, {
+						"assetName": "container_0",
+						"assetType": "container",
+						"assetStyle": {
+							"geometry": [0, 191, 375, 456]
+						},
+						"assetValue": [{
+							"assetName": "logo",
+							"assetType": "image",
+							"assetStyle": {
+								"geometry": [73.5, 25, 230, 62]
+							},
+							"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/logo21483950609.png"]
+						}, {
+							"assetName": "subtitle",
+							"assetType": "TEXT",
+							"assetStyle": {
+								"geometry": [90, 60, 200, 80],
+								"text": {
+									"font": "HelveticaNeue",
+									"size": "12",
+									"color": "#FF222222",
+									"style": ["none"],
+									"align": "centre"
+								}
+							},
+							"assetValue": ["Find out why Celebrities & Stylists love this Dryer!"]
+						}]
+					}, {
+						"assetName": "card_scrollable",
+						"assetType": "container",
+						"assetStyle": {
+							"geometry": [0.0, 335, 375.0, 260],
+							"transitionDirection": "horizontal",
+							"transitionEffect": "free",
+							"backgroundColor": "#00000000"
+						},
+						"assetValue": [{
+							"assetName": "card_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0.0, 0.0, 215, 260]
+							},
+							"assetValue": [{
+								"assetName": "card_image",
+								"assetType": "image",
+								"assetStyle": {
+									"geometry": [0.0, 0.0, 215, 260]
+								},
+								"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/Card11485154822.png"],
+								"assetOnclick": {
+									"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+									"openMode": "EXTERNAL"
+								}
+							}]
+						}, {
+							"assetName": "card_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0.0, 0.0, 215, 260]
+							},
+							"assetValue": [{
+								"assetName": "card_image",
+								"assetType": "image",
+								"assetStyle": {
+									"geometry": [0.0, 0.0, 215, 260]
+								},
+								"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/Card21485154851.png"],
+								"assetOnclick": {
+									"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+									"openMode": "EXTERNAL"
+								}
+							}]
+						}, {
+							"assetName": "card_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0.0, 0.0, 215, 260]
+							},
+							"assetValue": [{
+								"assetName": "card_image",
+								"assetType": "image",
+								"assetStyle": {
+									"geometry": [0.0, 0.0, 215, 260]
+								},
+								"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/Card31485154879.png"],
+								"assetOnclick": {
+									"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+									"openMode": "EXTERNAL"
+								}
+							}]
+						}, {
+							"assetName": "card_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0.0, 0.0, 215, 260]
+							},
+							"assetValue": [{
+								"assetName": "card_image",
+								"assetType": "image",
+								"assetStyle": {
+									"geometry": [0.0, 0.0, 215, 260]
+								},
+								"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/Card41485154902.png"],
+								"assetOnclick": {
+									"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+									"openMode": "EXTERNAL"
+								}
+							}]
+						}, {
+							"assetName": "card_container",
+							"assetType": "container",
+							"assetStyle": {
+								"geometry": [0.0, 0.0, 215, 260]
+							},
+							"assetValue": [{
+								"assetName": "card_image",
+								"assetType": "image",
+								"assetStyle": {
+									"geometry": [0.0, 0.0, 215, 260]
+								},
+								"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/Card51485154928.png"],
+								"assetOnclick": {
+									"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+									"openMode": "EXTERNAL"
+								}
+							}]
+						}]
+					}, {
+						"assetName": "cta",
+						"assetType": "image",
+						"assetStyle": {
+							"geometry": [0, 607, 375, 60]
+						},
+						"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/2017011511484546762.png"],
+						"assetOnclick": {
+							"itemUrl": "https://www.amazon.com/Harry-Josh-Pro-Dryer-2000/dp/B00DUMWDOQ",
+							"openMode": "EXTERNAL"
+						}
+					}, {
+						"assetName": "cross_button",
+						"assetType": "image",
+						"assetStyle": {
+							"geometry": [335.0, 20.0, 30, 30]
+						},
+						"assetOnclick": {
+							"action": "exit"
+						},
+						"assetValue": ["https://i.l.inmobicdn.net/ifctpads/IFC/CCN/assets/closebutton1468589560.png"]
+					}]
+				}
+			}]
+		},
+		"markupType": "inmobiJson",
+		"expiry": 3300
+	}],
+	"requestId": "c549d721-1000-43e4-b22-461adfe8e"
+}
